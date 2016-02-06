@@ -13,8 +13,6 @@
 		101417141C65F75500EA5AF5 /* Unwind_Segue.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 101417121C65F75500EA5AF5 /* Unwind_Segue.xcdatamodeld */; };
 		101417161C65F75500EA5AF5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 101417151C65F75500EA5AF5 /* Assets.xcassets */; };
 		101417191C65F75500EA5AF5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 101417171C65F75500EA5AF5 /* LaunchScreen.storyboard */; };
-		101417241C65F75500EA5AF5 /* Unwind_SegueTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 101417231C65F75500EA5AF5 /* Unwind_SegueTests.swift */; };
-		1014172F1C65F75500EA5AF5 /* Unwind_SegueUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1014172E1C65F75500EA5AF5 /* Unwind_SegueUITests.swift */; };
 		1014173D1C66039C00EA5AF5 /* MessageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1014173C1C66039C00EA5AF5 /* MessageViewController.swift */; };
 /* End PBXBuildFile section */
 
@@ -45,11 +43,7 @@
 		101417181C65F75500EA5AF5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1014171A1C65F75500EA5AF5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1014171F1C65F75500EA5AF5 /* Unwind SegueTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Unwind SegueTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		101417231C65F75500EA5AF5 /* Unwind_SegueTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Unwind_SegueTests.swift; sourceTree = "<group>"; };
-		101417251C65F75500EA5AF5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1014172A1C65F75500EA5AF5 /* Unwind SegueUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Unwind SegueUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		1014172E1C65F75500EA5AF5 /* Unwind_SegueUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Unwind_SegueUITests.swift; sourceTree = "<group>"; };
-		101417301C65F75500EA5AF5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1014173C1C66039C00EA5AF5 /* MessageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MessageViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -82,8 +76,6 @@
 			isa = PBXGroup;
 			children = (
 				1014170A1C65F75500EA5AF5 /* Unwind Segue */,
-				101417221C65F75500EA5AF5 /* Unwind SegueTests */,
-				1014172D1C65F75500EA5AF5 /* Unwind SegueUITests */,
 				101417091C65F75500EA5AF5 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -111,24 +103,6 @@
 				101417121C65F75500EA5AF5 /* Unwind_Segue.xcdatamodeld */,
 			);
 			path = "Unwind Segue";
-			sourceTree = "<group>";
-		};
-		101417221C65F75500EA5AF5 /* Unwind SegueTests */ = {
-			isa = PBXGroup;
-			children = (
-				101417231C65F75500EA5AF5 /* Unwind_SegueTests.swift */,
-				101417251C65F75500EA5AF5 /* Info.plist */,
-			);
-			path = "Unwind SegueTests";
-			sourceTree = "<group>";
-		};
-		1014172D1C65F75500EA5AF5 /* Unwind SegueUITests */ = {
-			isa = PBXGroup;
-			children = (
-				1014172E1C65F75500EA5AF5 /* Unwind_SegueUITests.swift */,
-				101417301C65F75500EA5AF5 /* Info.plist */,
-			);
-			path = "Unwind SegueUITests";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -273,7 +247,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				101417241C65F75500EA5AF5 /* Unwind_SegueTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -281,7 +254,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1014172F1C65F75500EA5AF5 /* Unwind_SegueUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
