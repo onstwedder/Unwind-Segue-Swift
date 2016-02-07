@@ -6,7 +6,6 @@ All credits go to https://github.com/versluis for making the obj-c version. Than
 
 # Credits
 swift version by Martijn Onstwedder ( http://onstwedder.com )
-
 original version by Jay Versluis ( http:pinkstone.co.uk ) 
 
 The original objective-c code can be found here:
