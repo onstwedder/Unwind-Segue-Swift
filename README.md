@@ -2,6 +2,12 @@
 I've made a swift version of the Unwind-Seque from https://github.com/versluis/Unwind-Segue.
 All credits go to https://github.com/versluis for making the obj-c version. Thanks!
 
+
+
+# Credits
+swift version by Martijn Onstwedder ( http://onstwedder.com )
+original version by Jay Versluis ( http:pinkstone.co.uk ) 
+
 The original objective-c code can be found here:
 https://github.com/versluis/Unwind-Segue
 
